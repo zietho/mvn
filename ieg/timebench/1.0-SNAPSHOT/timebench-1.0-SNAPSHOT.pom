@@ -11,8 +11,8 @@
     <repositories>
         <repository>
             <id>git-zietho</id>
-            <name>zietho's Git based repo</name>
-            <url>https://github.com/zietho/mvn/raw/master/</url>
+            <name>zietho repo</name>
+            <url>https://raw.githubusercontent.com/zietho/mvn/master/</url>
         </repository>
     </repositories>
     <dependencies>
