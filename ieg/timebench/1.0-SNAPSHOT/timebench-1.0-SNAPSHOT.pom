@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>ieg</groupId>
-  <artifactId>timebench</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <description>POM was created from install:install-file</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ieg</groupId>
+    <artifactId>timebench</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <repositories>
+        <repository>
+            <id>git-zietho</id>
+            <name>zietho's Git based repo</name>
+            <url>https://github.com/zietho/mvn/raw/master/</url>
+        </repository>
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>ieg</groupId>
+            <artifactId>ieg-util</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>ieg</groupId>
+            <artifactId>ieg-prefuse</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mnode.ical4j</groupId>
+            <artifactId>ical4j</artifactId>
+            <version>1.0.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nuiton.thirdparty</groupId>
+            <artifactId>REngine</artifactId>
+            <version>0.6-1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nuiton.thirdparty</groupId>
+            <artifactId>Rserve</artifactId>
+            <version>0.6-1</version>
+        </dependency>
+    </dependencies>
 </project>
